@@ -1,13 +1,21 @@
 import "./App.css";
+import Footer from "./components/Footer/Footer";
 import Hero from "./components/Hero/Hero";
+import Join from "./components/Join/Join";
+import Plans from "./components/Plans/Plans";
 import Programs from "./components/programs/Programs";
 import Reasons from "./components/reasons/Reasons";
+import Testimonijals from "./components/Testimonials/Testimonijals";
 function App() {
   return (
     <div className="App">
       <Hero />
-      <Programs/>
-      <Reasons/>
+      <Programs />
+      <Reasons />
+      <Plans />
+      <Testimonijals />
+      <Join />
+      <Footer />
     </div>
   );
 }
