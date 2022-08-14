@@ -47,7 +47,7 @@
   top: 0.9rem;
   right: 9rem;
 }
-.right-t > :nth-child(1) {
+.right-t > :nth-child(2) {
   position: absolute;
   width: 17rem;
   height: 19rem;
